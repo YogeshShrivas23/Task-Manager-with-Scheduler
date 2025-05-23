@@ -26,30 +26,6 @@ A Spring Boot REST API for managing tasks with an automatic status update schedu
    ```
 4. The application will start on `http://localhost:8080`
 
-## Railway Deployment
-
-1. Create a Railway account at https://railway.app
-2. Install Railway CLI (optional):
-   ```bash
-   npm i -g @railway/cli
-   ```
-3. Login to Railway:
-   ```bash
-   railway login
-   ```
-4. Link your project:
-   ```bash
-   railway link
-   ```
-5. Add PostgreSQL database:
-   - Go to Railway dashboard
-   - Click "New Project"
-   - Select "Database" → "PostgreSQL"
-6. Deploy your application:
-   ```bash
-   railway up
-   ```
-
 ## API Documentation
 
 ### Create a Task
